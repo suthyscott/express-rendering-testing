@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon app.js -w app.js -w public -w views -e html,css,js --delay 2.5"
+  }
+}
