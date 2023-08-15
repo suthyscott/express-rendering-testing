@@ -8,6 +8,7 @@ const port = 8000
 // Need this to replace __dirname because we're using js modules here (see package.json line 2)
 const rootDir = url.fileURLToPath(new URL('.', import.meta.url));
 
+// need to parse body when sending url encoded data
 app.use(express.urlencoded({ extended: false }));
 
 
